@@ -19,7 +19,7 @@ function total(lineItems) {
 }
 
 /**
- * 
+ * Adding item to list
  * @param {Array<LineItem>} lineItems 
  * @param {LineItem} addedLineItem 
  * @returns {Array<LineItem>}

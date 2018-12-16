@@ -41,7 +41,6 @@ describe('cart module test', function () {
         })
 
         expect(books.length).toBe(2)
-        expect(books[1].qty).toBe(2)
 
         books = cart.addItem(books, {
             id: "2",
